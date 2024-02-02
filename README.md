@@ -29,6 +29,7 @@ Folgende Komponenten werden in der Aufsetzungs des Projekts gebraucht:
 ![Alt text](image-1.png)
 
 - WireGuard runterladen und Aktivieren
+  
 ![Alt text](image-2.png)
 
 - Installieren von Ansible
