@@ -31,11 +31,12 @@ Folgende Komponenten werden in der Aufsetzungs des Projekts gebraucht:
 - WireGuard runterladen und Aktivieren
 ![Alt text](image-2.png)
 
-- Insallieren von Ansible
+- Installieren von Ansible
 ```
 $ sudo apt update
 $ sudo apt install ansible
 ```
+
 
 - SSH Key generieren
 ```
@@ -49,11 +50,13 @@ $ cd /home/user/.ssh
 $ cat id_rsa.pub
 ```
 
+
 - Ansible Configuration File (ansible.cfg)
 ```
 Ein "ansible.cfg"-Datei wird verwendet, um Konfigurationseinstellungen für Ansible zu definieren und anzupassen.
 ```
 ![Alt text](image-3.png)
+
 
 - Hosts File
 ```
@@ -78,40 +81,57 @@ Version 2 hosts -> Richtig
 Ein "cloud-init.yml"-Datei wird genutzt, um automatisierte Konfigurationen für virtuelle Maschinen in Cloud-Umgebungen festzulegen. 
 
 Diese Datei enthält YAML-formatierte Anweisungen, die beim Starten einer VM durch das Cloud-Init-Tool interpretiert werden, um beispielsweise Benutzer, Netzwerkeinstellungen und Skriptausführungen zu konfigurieren.
-```
+
 
 ![Alt text](image-6.png)
+```
 
 - Virtual Maschine ping
 
+```
 Fehler
 
 ![Alt text](image-7.png)
 
 ![Alt text](image-8.png)
+```
 
+```
 Lösung
 
 ![Alt text](image-9.png)
 
 ![Alt text](image-10.png)
+```
 
 
 
 ### AUTOMATIZIERUNG - ROLLE VERZEICHNIS
 
+
 - Make Ansible Role
+```
 ![Alt text](image-11.png)
+```
 
 - main.yml - tasks
+```
 ![Alt text](image-12.png)
 ![Alt text](image-13.png)
+```
 
 - main.yml - meta
+```
 ![Alt text](image-14.png)
+```
+
 
 - install_instances.yml
+```
 ![Alt text](image-15.png)
+```
 
 Error bei der erstellung my_ansible_role
+```
 ![Alt text](image-16.png)
+```
