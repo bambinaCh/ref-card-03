@@ -1,0 +1,4 @@
+[web]
+web1 ansible_host=192.168.69.117 ansible_user=bambina
+web2 ansible_host=192.168.69.118 ansible_user=bambina
+

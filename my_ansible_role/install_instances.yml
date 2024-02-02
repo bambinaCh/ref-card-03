@@ -1,0 +1,7 @@
+# install_instances.yml
+---
+- name: Install Instances
+  hosts: web
+  become: true
+  roles:
+    - my_ansible_role

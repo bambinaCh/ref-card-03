@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - default
+  - name: bambina
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAIp7V/BjtclAYDxpu7ONqbth+5JGdMZFOpPY/ckQ5QVuZur3XlgWzvJHemQpxdgu+THSLrt8Rz1zTOOMEHVfhxYQjJu2X5vySDunXI4XA4IL3wcInRHlL1q4leHeEryf+lcusTaPQ4dEKXNmc/EEm3G0rPDBMQVS+ZE79RUWWFGpzUCKfpcDDdRFGw5Hra/Bt7HBeb5P+SqG+DyvwemAeUtzHAuI8a4KRsmVzYULCYCATGnokkm5hPT5yL/ucxrVv2Qjuc3jVz6JiEHv1pWC12tt+pfaC5Xu95lDHkWC3t+sjdayNQt0hE8r1YFHRixAJPiPiaMQmBOJjOPVuqC4YB3/KzbiCsNBDlMreTLb9ViYFO/FdE+ijR/K6cyLPsf0Xj6llFsGQ0VGWwkYM0oY7bGUvgT5oMTYvt3CqNDQlZhWRCJzMizI5MBpopyNcEHn5irmrH5JdE/fkGY0MhML/J69fOx/fs/5TlDQDKKfFwy6PPvZS2si1VQo3FK8ISxU= root@bambina
