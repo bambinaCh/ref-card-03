@@ -62,13 +62,15 @@ Ein "hosts"-Datei in Ansible wird verwendet, um Hostnamen oder IP-Adressen von Z
 
 ```
 Version 1 hosts -> FALSCH
-```
+
 ![Alt text](image-4.png)
 ```
-Version 2 hosts -> Richtig
-```
-![Alt text](image-5.png)
 
+```
+Version 2 hosts -> Richtig
+
+![Alt text](image-5.png)
+```
 
 
 - Cloud Init File (cloud-init.yml)
