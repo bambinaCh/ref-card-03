@@ -65,15 +65,15 @@ Ein "hosts"-Datei in Ansible wird verwendet, um Hostnamen oder IP-Adressen von Z
 
 ```
 Version 1 hosts -> FALSCH
-
-![Alt text](image-4.png)
 ```
+![Alt text](image-4.png)
+
 
 ```
 Version 2 hosts -> Richtig
-
-![Alt text](image-5.png)
 ```
+![Alt text](image-5.png)
+
 
 
 - Cloud Init File (cloud-init.yml)
@@ -81,28 +81,28 @@ Version 2 hosts -> Richtig
 Ein "cloud-init.yml"-Datei wird genutzt, um automatisierte Konfigurationen für virtuelle Maschinen in Cloud-Umgebungen festzulegen. 
 
 Diese Datei enthält YAML-formatierte Anweisungen, die beim Starten einer VM durch das Cloud-Init-Tool interpretiert werden, um beispielsweise Benutzer, Netzwerkeinstellungen und Skriptausführungen zu konfigurieren.
-
+```
 
 ![Alt text](image-6.png)
-```
+
 
 - Virtual Maschine ping
 
 ```
 Fehler
-
+```
 ![Alt text](image-7.png)
 
 ![Alt text](image-8.png)
-```
+
 
 ```
 Lösung
-
+```
 ![Alt text](image-9.png)
 
 ![Alt text](image-10.png)
-```
+
 
 
 
@@ -110,28 +110,27 @@ Lösung
 
 
 - Make Ansible Role
-```
 ![Alt text](image-11.png)
-```
+
 
 - main.yml - tasks
-```
+
 ![Alt text](image-12.png)
 ![Alt text](image-13.png)
-```
+
 
 - main.yml - meta
-```
+
 ![Alt text](image-14.png)
-```
+
 
 
 - install_instances.yml
-```
-![Alt text](image-15.png)
-```
 
-Error bei der erstellung my_ansible_role
-```
+![Alt text](image-15.png)
+
+
+- Error bei der erstellung my_ansible_role
+
 ![Alt text](image-16.png)
-```
+
